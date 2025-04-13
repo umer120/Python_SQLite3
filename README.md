@@ -17,7 +17,7 @@ In this repository, I have uploaded a file which uses sqlite3 library to create 
 
 - A loop runs continuously to prompt the user for an operation until they choose to quit.
 
-**_Option 1: Insert Data_**
+**_Option 1: Insert Data:_**
 
 - Takes name and age from the user.
 
@@ -25,6 +25,16 @@ In this repository, I have uploaded a file which uses sqlite3 library to create 
 
 - Retrieves and prints all records from the users table.
 
-**_Option 2: Read Data_** Retrieves and prints all records from the users table.
+**_Option 2: Read Data:_** Retrieves and prints all records from the users table.
+
+**_Option 3: Update Data:_** 
+
+- User selects what they want to update: only name, only age, or both.
+
+- Based on the user’s choice, the code updates the specified field(s) for a particular user (by ID).
+
+**_Option 4: Delete Data:_** Deletes the user record with the given ID.
+
+**_Option 5: Quit_** Ends the loop and exits the program.
 
  
